@@ -1,0 +1,28 @@
+<!-- About Me -->
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].about_me.section | default: "about_me" }}">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about_me.title | default: "About Me" }}</h2>
+          {% if site.data.sitetext[site.locale].about_me.text %}
+		  <!--<h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about_me.text }}</h3>-->
+		  {% endif %}
+        </div>
+      </div>
+	  
+      <div class="row text-center">
+	  {% for about_me in site.data.sitetext[site.locale].about_me.list %}
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="{{ about_me.icon | default: "fas fa-user" }} fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="about_me-heading">{{ about_me.title | markdownify }}</h4>
+          {% if about_me.desc %}<div class="text-muted">{{ about_me.desc | markdownify }}</div>{% endif %}
+        </div>
+	  {% endfor %}
+      </div>
+    </div>
+  </section>
+<!-- End About Me -->

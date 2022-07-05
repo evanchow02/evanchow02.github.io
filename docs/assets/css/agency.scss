@@ -20,13 +20,13 @@ $contact-image: "{{ site.data.style.contact-image }}";
 // Components
 @import "components/buttons.scss";
 @import "components/navbar.scss";
-@import "components/client-scroll.scss";
+@import "components/skills-scroll.scss";
 
 // Layout
 @import "layout/masthead.scss";
-@import "layout/services.scss";
+@import "layout/about_me.scss";
 @import "layout/portfolio.scss";
-@import "layout/timeline.scss";
-@import "layout/team.scss";
+@import "layout/experience.scss";
+@import "layout/additional_interests.scss";
 @import "layout/contact.scss";
 @import "layout/footer.scss";
