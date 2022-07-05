@@ -38,28 +38,23 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/experience/1.jpg
+      - title: "Kitchen Staff"
+        year: "Nov 2020 - Jan 2021"
+        desc: "**Kung Fu Tea**  \nKnoxville, TN"
+        image: assets/img/experience/kung-fu-tea.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/experience/2.jpg
+      - title: "Licensing Intern"
+        year: "May 2021 - Aug 2021"
+        desc: "**Vanderbilt Center for Technology Transfer & Commercialization**  \nNashville, TN"
+        image: assets/img/experience/cttc.png
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/experience/3.jpg
+      - title: "Undergraduate Researcher"
+        year: "Feb 2022 - Present"
+        desc: "**Robotics and Autonomous Systems Lab at Vanderbilt**  \nNashville, TN"
+        image: assets/img/experience/rasl.png
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/experience/4.jpg
-        alt:
         # you can enforce the alignment
-        align: right
+        align:
     end: "To Be <br> Continued <br> ..."
 
   portfolio:
