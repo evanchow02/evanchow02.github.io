@@ -54,8 +54,8 @@ en: &DEFAULT_EN
         image: assets/img/experience/rasl.png
         alt: image alt text
         # you can enforce the alignment
-        align:
-    end: "To Be <br> Continued <br> ..."
+        align: #right or left
+    end: "Stay <br> Tuned! <br> ..."
 
   portfolio:
     title: "Portfolio"
