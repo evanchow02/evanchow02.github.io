@@ -18,4 +18,3 @@ Besides improving my technical skills in 3D printing and product fabrication, wo
 
 {:.list-inline} 
 - **Date:** November 5-7, 2021
-- **Category:** Rapid Prototyping Project

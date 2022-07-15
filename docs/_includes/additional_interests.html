@@ -1,5 +1,5 @@
 <!-- Additional Interests -->
-<section class="page-section" id="{{ site.data.sitetext[site.locale].additional_interests.section | default: "additional_interests" }}">
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].additional_interests.section | default: "additional_interests" }}">
 <div class="container">
   <div class="row">
 	<div class="col-lg-12 text-center">
@@ -8,21 +8,19 @@
 	</div>
   </div>
   <div class="row">
-  {% for person in site.data.sitetext[site.locale].additional_interests.people %}
-	<div class="col-sm-4">
-	  <div class="additional_interests-member">
-		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
-		<h4>{{ person.name }}</h4>
-		<p class="text-muted">{{ person.role }}</p>
-		<ul class="list-inline social-buttons">
-		{% for network in person.social %}
-		  <li class="list-inline-item">
-			<a href="{{ network.url }}">
-			  <i class="{{ network.icon }}"></i>
-			</a>
-		  </li>
-		{% endfor %}
-		</ul>
+	{% for interest in site.interests %}
+	<div class="col-md-4 col-sm-6 interests-item">
+	  <a class="interests-link" data-toggle="modal" href="#i{{ forloop.index }}">
+		<div class="interests-hover">
+		  <div class="interests-hover-content">
+			<!-- <i class="{{ site.data.style.interests-icon | default: "fas fa-plus fa-3x" }}"></i> -->
+		  </div>
+		</div>
+		<img class="img-fluid rounded-circle thumbnail" src="{{ interest.caption.thumbnail }}" alt="">
+	  </a>
+	  <div class="interests-caption bg-light">
+		<h4>{{ interest.caption.title }}</h4>
+		<p class="text-muted">{{ interest.caption.subtitle }}</p>
 	  </div>
 	</div>
   {% endfor %}
@@ -34,4 +32,5 @@
   </div>
 </div>
 </section>
+{% include interest_modals.html %}
 <!-- End Additional Interests -->
