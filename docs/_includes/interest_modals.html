@@ -16,28 +16,27 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
             <div class="modal-body">
               <!-- Interest Details Go Here -->
               <h2 class="text-uppercase">{{ interest.title }}</h2>
               <p class="item-intro text-muted">{{ interest.subtitle }}</p>
-              <img
-                class="img-fluid d-block mx-auto"
-                src="{{ interest.image }}"
-                alt="{{ interest.alt }}"
-              />
+              <div class="row">
+                {% for item in interest.items%}
+                <div class="col-sm-4">
+                  <figure>
+                    <img class="img-fluid d-block mx-auto figure-img rounded" src="{{ item.image }}" alt="{{ item.alt }}"/>
+                    <figcaption class="figure-caption">{{ item.description | markdownify }}</figcaption>
+                  </figure>
+                </div>
+                {% endfor %}
+              </div>
               <p>{{ interest.content }}</p>
-              <button
-                class="btn btn-primary"
-                data-dismiss="modal"
-                type="button"
-              >
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
                 <i class="fas fa-times"></i>
                 {{ site.data.sitetext[site.locale].additional_interests.closebutton |
                 default: "Close" }}
               </button>
             </div>
-          </div>
         </div>
       </div>
     </div>

@@ -43,7 +43,7 @@
 .interests-modal {
   .modal-dialog {
     margin: 1rem;
-    max-width: 100vw;
+    max-width: 200vw;
   }
   .modal-content {
     padding: 100px 0;
@@ -66,10 +66,16 @@
       margin-bottom: 30px;
     }
     img {
-      margin-bottom: 30px;
+      margin-bottom: 10px;
+      max-width: 300px;
     }
     button {
       cursor: pointer;
+    }
+    figcaption {
+      font-size: 16px;
+      color: black;
+      margin-bottom: 50px;
     }
   }
   .close-modal {
@@ -122,6 +128,6 @@
   
   /*change the number below to scale to the appropriate size*/ 
   .thumbnail:hover { 
-  transform: scale(1.25); 
+  transform: scale(1.175); 
   
   }
