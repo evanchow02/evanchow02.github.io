@@ -31,8 +31,3 @@ items:
     description: "**Fire Torches**"
 
 ---
-
-
-
-{:.list-inline} 
-- **Category:**
