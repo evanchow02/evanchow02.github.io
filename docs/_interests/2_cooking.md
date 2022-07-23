@@ -16,7 +16,7 @@ items:
     description: "**Chicken Pesto Pasta**  \nI was craving pasta and needed to use up a jar of week old pesto. The chicken turned out a little dryer than I like, but the overall flaver was solid. I decided to add spinach and roasted tomatoes with garlic for some veggies, which made the dish pop!  \n**Rating: 7/10**"
   - image: assets/img/additional_interests/pizza.jpg 
     alt: pizza
-    description: "**Chicken Pita Pizza** \nTime to be creative! I hadn't had pizza in a while but saw the opportunity to make it after sureying all the ingredients in my dorm room. I used pita bread as the crust and feta for the cheese. It didn't taste like a traditional pizza, but it sure looked like one.  \n**Rating: 7.5/10**"
+    description: "**Chicken Pita Pizza**  \nTime to be creative! I hadn't had pizza in a while but saw the opportunity to make it after sureying all the ingredients in my dorm room. I used pita bread as the crust and feta for the cheese. It didn't taste like a traditional pizza, but it sure looked like one.  \n**Rating: 7.5/10**"
   - image: assets/img/additional_interests/sandwich.jpg 
     alt: sandwich
     description: "**Turkey Pesto Sandwich**  \nI discovered this glorious sandwich during my Summer 2022 internship. Needing something quick and easy to make for my lunch break, I decided to layer pesto, sliced turkey breast, and creamy gouda cheese onto toasted sour dough bread. This sandwich definetly made my lunch breaks.  \n**Rating: 8.5/10**"
