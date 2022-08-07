@@ -8,22 +8,22 @@ caption: #what displays in the additional_interests grid:
 title: Juggling
 subtitle:
 items:
-  - image: assets/img/additional_interests/juggling.jpg #main image, can be a link or a file in assets/img/portfolio
+  - video: assets/img/additional_interests/3_cascade.mov 
     alt: juggling
     description: "**Three Ball Cascade**"
-  - image: assets/img/additional_interests/juggling.jpg
+  - video: assets/img/additional_interests/reverse_cascade.mov
     alt: juggling
     description: "**Three Ball Reverse Cascade**"
-  - image: assets/img/additional_interests/juggling.jpg
+  - video: assets/img/additional_interests/half_box.mov
     alt: juggling
     description: "**Half-Box**"
-  - image: assets/img/additional_interests/juggling.jpg
+  - video: assets/img/additional_interests/mills_mess.mov
     alt: juggling
     description: "**Mills Mess**"
-  - image: assets/img/additional_interests/juggling.jpg
+  - video: assets/img/additional_interests/romeos_revenge.mov
     alt: juggling
     description: "**Romeo's Revenge**"
-  - image: assets/img/additional_interests/juggling.jpg
+  - video: assets/img/additional_interests/4_cascade.mov
     alt: juggling
     description: "**Four Ball Cascade**"
   - image: assets/img/additional_interests/juggling.jpg
