@@ -27,7 +27,7 @@
                     {% if item.image %}
                       <img class="img-fluid d-block mx-auto figure-img rounded" src="{{ item.image }}" alt="{{ item.alt }}"/>
                     {% else %}
-                      <video controls autoplay><source src="{{ item.video }}" type="video/mp4"></video>
+                      <video controls><source src="{{ item.video }}" type="video/mp4"></video>
                     {% endif %}
                     <figcaption class="figure-caption">{{ item.description | markdownify }}</figcaption>
                   </figure>
