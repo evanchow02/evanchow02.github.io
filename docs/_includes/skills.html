@@ -1,27 +1,52 @@
 <!-- Skills -->
 <head>
   <style>
-    .outer-wrapper{
-        display: inline-block; 
-        margin: 5px;
+    .skills{
+      padding-bottom: 200px;
     }
-    .frame{  
-        width: 250px;
-        height: 100px;
-        vertical-align: middle;
-        text-align: center;
-        display: table-cell;
-    }    
-    div.frame>img{
+    .outer-wrapper{
+      display: inline-block; 
+      margin: 7px;
+    }
+    .frame{
+      width: 250px;
+      height: 100px;
+      vertical-align: middle;
+      text-align: center;
+      transform-style: preserve-3d;
+      transition: all 0.5s ease;
+    }
+    .frame:hover{
+      transform: rotateY(180deg);
+    }
+    .thefront{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      display: flex;
+      align-items: center;
+    }
+    .theback{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      background: #2980B9;
+      color: white;
+      transform: rotateY(180deg);
+      border-radius: 20px;
+      padding: 35px 0;
+    }
+    div.thefront>img{
         max-width: 100%;
         max-height: 100px;
         display: block;
-        margin: 0 auto;
     }
   </style>
 </head>
   <section class="py-5" id="{{ site.data.sitetext[site.locale].skills.section | default: "skills" }}">
-    <div class="container">
+    <div class="container skills">
       <div class="row" {% if site.data.sitetext[site.locale].skills.horizontal-scrolling == "yes" %} id="scrolling-skills" {% endif %}>
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].skills.title | markdownify | default: "Skills" }}</h2>
@@ -29,7 +54,12 @@
         {% for skills in site.data.sitetext[site.locale].skills.list %}
         <div class="col-md-3 col-sm-6">
           <!--<a href="{{ skills.url }}">-->
-            <div class="outer-wrapper"><div class="frame"><img class="img-fluid d-block mx-auto" src="{{ skills.logo }}" alt="{{ skills.title }}"></div></div>
+            <div class="outer-wrapper">
+              <div class="frame">
+                <div class="thefront"><img class="img-fluid d-block mx-auto" src="{{ skills.logo }}" alt="{{ skills.title }}"></div>
+                <div class="theback"><b>Category:</b> {{ skills.title }}</div>
+              </div>
+            </div>
           <!--</a>-->
         </div>
 	    {% endfor %}

@@ -81,28 +81,28 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "c++"
+      - title: "Software"
         url: https://cplusplus.com/
         logo: assets/img/skills/c++.png
-      - title: "java"
+      - title: "Software"
         url: https://www.java.com/en/
         logo: assets/img/skills/java.png
-      - title: "solidworks"
+      - title: "Computer Aided Design"
         url: https://my.solidworks.com/
         logo: assets/img/skills/solidworks-logo.jpg
-      - title: "arduino"
+      - title: "Software and Hardware"
         url: https://www.arduino.cc/
         logo: assets/img/skills/arduino.png
-      - title: "unity"
+      - title: "Game/UI Development"
         url: https://unity.com/
         logo: assets/img/skills/unity.jpg
-      - title: "ultimaker"
+      - title: "3D Printing"
         url: https://ultimaker.com/
         logo: assets/img/skills/ultimaker.png
-      - title: "labview"
+      - title: "Software"
         url: https://www.ni.com/en-us.html
         logo: assets/img/skills/labview.png
-      - title: "word"
+      - title: "Productivity"
         logo: assets/img/skills/word.png
 
   footer:
