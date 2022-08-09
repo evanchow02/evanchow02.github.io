@@ -24,7 +24,9 @@
                 {% for item in interest.items%}
                 <div class="col-sm-4">
                   <figure>
-                    {% if item.image %}
+                    {% if item.image and item.video %}
+                      <video width="300" controls poster="{{ item.image }}"><source src="{{ item.video }}" type="video/mp4"></video>
+                    {% elsif item.image %}
                       <img class="img-fluid d-block mx-auto figure-img rounded" src="{{ item.image }}" alt="{{ item.alt }}"/>
                     {% else %}
                       <video width="300" controls><source src="{{ item.video }}" type="video/mp4"></video>
