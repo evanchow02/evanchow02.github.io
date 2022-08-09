@@ -32,7 +32,7 @@ items:
   - image: assets/img/additional_interests/cooking/shrimp_fried_rice.jpg
     video: assets/img/additional_interests/cooking/shrimp_fried_rice.mp4
     alt: shrimp fried rice
-    description: "**Shrimp Fried Rice**  \nMom's famous shrimp fried rice! For as long as I can remember, the Panda Express style wok has been a staple kitchen appliance in our household. Growing up, I was fortunate enough to enjoy all types of Chinese stir fry dishes with fried rice always being a family and friend favorite. The shrimp fried rice had a nice char and smokey flavor from the high heat of the wok and the onions and carrots added a balanced sweetness. Even though a seasoned wok adds an unique depth of flavor to the dish, the secret ingredient to my mom's fried rice is white pepper. When I cook fried rice it is often rare that I have access to a wok, but by simply adding white pepper my fried rice is elevated and I am reminded of home.  \n**Rating: 9.5/10**"
+    description: "**Shrimp Fried Rice**  \nMom's famous shrimp fried rice! For as long as I can remember, the Panda Express style wok has been a staple kitchen appliance in our household. Growing up, I was fortunate enough to enjoy all types of Chinese stir fry dishes with fried rice always being a family and friend favorite. The shrimp fried rice had a nice char and smokey flavor from the high heat of the wok and the onions and carrots added a balanced sweetness. Even though a seasoned wok adds a unique depth of flavor to the dish, the secret ingredient to my mom's fried rice is white pepper. When I cook fried rice, it is often rare that I have access to a wok, but by simply adding white pepper my fried rice is elevated and I am reminded of home.  \n**Rating: 9.5/10**"
 
 
 ---
