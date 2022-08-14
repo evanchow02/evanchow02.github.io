@@ -26,8 +26,8 @@ items:
   - video: assets/img/additional_interests/juggling/4_cascade.mp4
     alt: juggling
     description: "**Four Ball Cascade**"
-  - image: assets/img/additional_interests/juggling/juggling.jpg
+  - video: assets/img/additional_interests/juggling/torches.mp4
     alt: juggling
-    description: "**Fire Torches**"
+    description: "**Torches**"
 
 ---
