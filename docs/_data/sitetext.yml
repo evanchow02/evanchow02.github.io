@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Hello, my name is Evan Chow!
-    text: Welcome to my website
+    title: "\"One of the greatest challenges in this world is to know enough about a subject to think you're right but not enough about a subject to know you're wrong.\"  \n-Neil deGrasse Tyson"
+    text: 
     button: About Me
     buttonlink: "#about_me"
 
