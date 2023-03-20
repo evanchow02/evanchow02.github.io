@@ -33,9 +33,6 @@ During my three months of summer research, I was able to learn much about contro
 
 <img src="assets/img/portfolio/hololens.jpg" alt="hololens_selfie" width="400"/>
 
-Also, stay tuned! A conference paper is pending...
-
-
 
 
 
