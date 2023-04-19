@@ -8,6 +8,9 @@ caption: #what displays in the additional_interests grid:
 title: Juggling
 subtitle:
 items:
+  - video: assets/img/additional_interests/juggling/torches.mp4
+    alt: juggling
+    description: "**Torches**"
   - video: assets/img/additional_interests/juggling/3_cascade.mp4
     alt: juggling
     description: "**Three Ball Cascade**"
@@ -26,8 +29,5 @@ items:
   - video: assets/img/additional_interests/juggling/4_cascade.mp4
     alt: juggling
     description: "**Four Ball Cascade**"
-  - video: assets/img/additional_interests/juggling/torches.mp4
-    alt: juggling
-    description: "**Torches**"
 
 ---
