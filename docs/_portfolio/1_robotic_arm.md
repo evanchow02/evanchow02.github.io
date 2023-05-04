@@ -13,5 +13,5 @@ alt: robotic_arm_cad
 ---
 I built a robotic arm!
 
-<video autoplay loop controls muted> <source src="assets/img/portfolio/robotic_arm/arm_explode_collapse.mp4" type="video/mp4"> </video>  
+<video width="700" autoplay loop controls muted> <source src="assets/img/portfolio/robotic_arm/arm_explode_collapse.mp4" type="video/mp4"> </video>  
 <img src="assets/img/portfolio/robotic_arm/robotic_arm.jpg" alt="robotic_arm" width="400"/>

@@ -20,7 +20,7 @@ While the initial 3x3 array prototype allowed for better thermal detection and t
 
 <img src="assets/img/portfolio/haptic_thermal/pcb_device_version.jpg" alt="pcb_thermal_device" width="700"/>
 <img src="assets/img/portfolio/haptic_thermal/pcb_device_closeup.jpg" alt="pcb_thermal_device" width="700"/>
-<video controls muted> <source src="assets/img/portfolio/haptic_thermal/thermal_cam_video.mp4" type="video/mp4"> </video>  
+<video width="700" autoplay controls muted> <source src="assets/img/portfolio/haptic_thermal/thermal_cam_video.mp4" type="video/mp4"> </video>  
 The last month of my summer research consisted of implementing the 4x4 thermal array with augmented reality. Using Unity, I developed 3 GUIs to test different capabilities of the thermal system. In the first GUI, a specified temperature is delivered to a single black or green region specified by the user.
 
 <img src="assets/img/portfolio/haptic_thermal/region_gui.jpg" alt="gui_1" width="700"/>
