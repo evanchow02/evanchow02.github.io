@@ -33,7 +33,7 @@ To operate the arm, 5 potentiometers (3 linear, 2 rotary) and 2 switches are use
 
 While the implementation of inverse kinematics in code didn’t require much more than utilizing the law of cosines, figuring out the bounds of the end effector's position proved to be the challenge. To determine the allowable x, y, and z values of the robotic arm, the length of the arm's links and the restricted range of motion of the servos (180ᵒ) all needed to be considered, increasing the complexity of the inverse kinematic solutions. Ultimately, I used an iterative approach in Excel to figure out the bounds of the robotic arm’s motion.
 
-<video width="700" controls> <source src="https://github.com/evanchow02/evanchow02.github.io/blob/master/docs/assets/img/portfolio/tom/tomvideo.mp4" type="video/mp4" alt="robot_arm_video"> </video>  
+<video width="700" controls> <source src="assets/img/portfolio/robotic_arm/robotic_arm_video.mp4" type="video/mp4" alt="robot_arm_video"> </video>  
 
 
 {:.list-inline} 
