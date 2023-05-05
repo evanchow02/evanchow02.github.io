@@ -13,7 +13,7 @@ alt: tom image
 ---
 The [mobile sensory unit](https://tomglobal.org/project?id=615c78c60a3b463bd05551a6) depicted above was part of a rapid prototyping event for the Tikkun Olam Makers. In this event, a group of students and I were tasked with aiding Adam (center of image above) with his everyday need of constant sensory stimulation. As a solution, my team developed a mobile sensory unit modeled after the sensory stations found in pediatric hospitals. In addition to centralizing and organizing Adam's preexisting sensory instruments, we developed two additional sensory devices to include on the mobile unit. The first addition was an infinity mirror display with a ring of LEDs around it and the second was a vibrating button box.
 
-<video width="500" controls muted> <source src="assets/img/portfolio/tom/tomvideo.mp4" type="video/mp4"> </video>
+<video controls muted> <source src="assets/img/portfolio/tom/tomvideo.mp4" type="video/mp4"> </video>
 
 Besides improving my technical skills in 3D printing and product fabrication, working on this project gave me experience with being on a team and rapid prototyping. Because we were only given 3 days to brainstorm and develop a solution, I quickly learned the importance of communication, and collaboration.  
 
