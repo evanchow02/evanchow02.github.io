@@ -1,12 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Haptic Thermal Feedback
+  title: Haptic Thermal Feedback Array
   subtitle: Summer 2022
   thumbnail: assets/img/portfolio/haptic_thermal/thermal_feedback_thumbnail.jpg
   
 #what displays when the item is clicked:
-title: Haptic Thermal Feedback
-subtitle: Bringing thermal sensation to augmented reality
+title: Haptic Thermal Feedback Array
+subtitle: <b>Components:</b> C++, Python, Unity, Thermal Imaging, CAD, 3D-Printing, Soldering
 image: assets/img/portfolio/haptic_thermal/thermal_feedback_thumbnail.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: thermal_feedback
 
@@ -20,7 +20,10 @@ While the initial 3x3 array prototype allowed for better thermal detection and t
 
 <img src="assets/img/portfolio/haptic_thermal/pcb_device_version.jpg" alt="pcb_thermal_device" width="700"/>
 <img src="assets/img/portfolio/haptic_thermal/pcb_device_closeup.jpg" alt="pcb_thermal_device" width="700"/>
-<video width="700" autoplay controls muted> <source src="assets/img/portfolio/haptic_thermal/thermal_cam_video.mp4" type="video/mp4"> </video>  
+
+The video below, produced from a thermal camera, shows the temperature performance of the thermal array in degrees Celcius.
+<video width="700" autoplay controls muted> <source src="assets/img/portfolio/haptic_thermal/thermal_cam_video.mp4" type="video/mp4"> </video>
+  
 The last month of my summer research consisted of implementing the 4x4 thermal array with augmented reality. Using Unity, I developed 3 GUIs to test different capabilities of the thermal system. In the first GUI, a specified temperature is delivered to a single black or green region specified by the user.
 
 <img src="assets/img/portfolio/haptic_thermal/region_gui.jpg" alt="gui_1" width="700"/>

@@ -6,7 +6,7 @@ caption: #what displays in the portfolio grid:
   
 #what displays when the item is clicked:
 title: Personal Website
-subtitle:
+subtitle: <b>Components:</b> HTML, CSS, Jekyll, GitHub Pages
 image: assets/img/portfolio/website/website.png
 alt: website
 

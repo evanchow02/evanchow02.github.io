@@ -22,13 +22,13 @@ en: &DEFAULT_EN
     section: about_me
     list:
       - title: "Personal"
-        desc: "I was born in Los Angeles, CA, but now call the beautiful Knoxville, TN home. I am the third child out of four, but have always considered myself the middle child. I enjoy juggling, cooking, and have recently discovered FPV drone racing. Check out my Additional Interests page to learn more!"
+        desc: "I was born in Los Angeles, CA, but I now call the beautiful Knoxville, TN home. I am the third child out of four, but I have always considered myself the middle child. I enjoy juggling, cooking, and have recently discovered FPV drone racing. Check out my Additional Interests page to learn more!"
         icon: fas fa-user #find more at https://fontawesome.com/icons
       - title: "Education"
-        desc: "**Vanderbilt University**  \n**Class of 2024**  \n**Major**: Mechanical Engineering  \n**Minors**: Computer Science"
+        desc: "**Vanderbilt University**  \n**Class of 2024**  \n**Major**: Mechanical Engineering  \n**Minor**: Computer Science"
         icon: fas fa-graduation-cap
       - title: "Career"
-        desc: "I hope to pursue a career in machine learning with applications in cyber physical systems, robotics, and/or autonomous vehicles."
+        desc: "I hope to pursue a career in machine learning with applications in cyber physical systems, robotics, or autonomous vehicles."
         icon: fas fa-robot
 
   experience:

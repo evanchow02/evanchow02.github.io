@@ -84,10 +84,12 @@
     }
     p {
       margin-bottom: 30px;
+      text-align: left;
     }
     p.item-intro {
       font-size: 16px;
-      font-style: italic;
+      font-style: normal;
+      text-align: center;
       margin: 20px 0 30px;
       @include serif-font;
     }
@@ -95,8 +97,12 @@
       margin-top: 0;
       margin-bottom: 30px;
     }
-    img {
+    img, video {
       margin-bottom: 30px;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     button {
       cursor: pointer;
