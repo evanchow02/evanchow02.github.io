@@ -35,7 +35,7 @@ While the implementation of inverse kinematics in code didn’t require much mor
 
 <video width="100%" controls> <source src="assets/img/portfolio/robotic_arm/robotic_arm_video.mp4" type="video/mp4" alt="robot_arm_video"> </video>
 
-The project code can be found here: [Complete Robotic Arm Project](https://github.com/evanchow02/inverse_kinematic_robotic_arm)  
+The project code can be found here: [Robotic Arm Project](https://github.com/evanchow02/inverse_kinematic_robotic_arm)  
 
 {:.list-inline} 
 - **Date:** Spring, 2023
