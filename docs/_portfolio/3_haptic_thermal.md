@@ -41,4 +41,4 @@ In the third GUI, the user utilizes a HoloLens2 to track their hand. When the us
 <img src="assets/img/portfolio/haptic_thermal/hololens.jpg" alt="hololens_selfie" width="50%"/>
 
 {:.list-inline} 
-- **Date:** Summer, 2022
+- **Date:** Summer 2022

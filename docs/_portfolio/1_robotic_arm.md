@@ -38,4 +38,4 @@ While the implementation of inverse kinematics in code didn’t require much mor
 The project code can be found here: [Robotic Arm Project](https://github.com/evanchow02/inverse_kinematic_robotic_arm)  
 
 {:.list-inline} 
-- **Date:** Spring, 2023
+- **Date:** Spring 2023

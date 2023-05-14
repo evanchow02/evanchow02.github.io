@@ -30,4 +30,4 @@ The decision making code can be found here: [Decision Making Module](https://git
 The complete project report can be found here: <a href="assets/img/portfolio/av_simulation/av_project_report.pdf">Project Report</a>
 
 {:.list-inline} 
-- **Date:** Spring, 2023
+- **Date:** Spring 2023

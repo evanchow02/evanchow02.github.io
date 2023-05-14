@@ -16,4 +16,4 @@ By combining the advice I recieved to start an engineering portfolio and my desi
 As I continue to build my personal website, I am learning the importance of perseverance, especially when it comes to learning a new skill. From the start of learning about web development, I quickly realized the expansiveness and depth of the subject. Modifying certain HTML and CSS files for my website often took me days to fully figure out, but the long hours only made seeing the desired results even more rewarding. I am excited to continue building my website and exploring web development and look forward to sharing what I have and will learn!
 
 {:.list-inline} 
-- **Date:** Summer, 2022
+- **Date:** Summer 2022
