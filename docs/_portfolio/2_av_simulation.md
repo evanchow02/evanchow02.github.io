@@ -26,8 +26,8 @@ Once the road segment position of the ego vehicle is established, I implemented 
 <video width="100%" controls> <source src="assets/img/portfolio/av_simulation/AV_video_project.mp4" type="video/mp4" alt="av_project"> </video>  
 
 The final project code can be found here: [Complete AV Project](https://github.com/vikrammeyer/av-project)  
-The decision making code can be found here: [Decision Making Module](https://github.com/vikrammeyer/av-project/blob/main/src/routing.jl)
-The complete group project report can be found here: <a href="assets/img/portfolio/av_simulation/av_project_report.pdf">Project Report</a>
+The decision making code can be found here: [Decision Making Module](https://github.com/vikrammeyer/av-project/blob/main/src/routing.jl)  
+The complete project report can be found here: <a href="assets/img/portfolio/av_simulation/av_project_report.pdf">Project Report</a>
 
 {:.list-inline} 
 - **Date:** Spring, 2023
