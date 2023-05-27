@@ -90,6 +90,9 @@ en: &DEFAULT_EN
         url: https://cplusplus.com/
         logo: assets/img/skills/c++.png
       - title: "Software"
+        url: https://julialang.org/
+        logo: assets/img/skills/julia.png
+      - title: "Software"
         url: https://www.java.com/en/
         logo: assets/img/skills/java.png
       - title: "Computer Aided Design"
