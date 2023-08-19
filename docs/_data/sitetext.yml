@@ -28,7 +28,7 @@ en: &DEFAULT_EN
         desc: "**Vanderbilt University**  \n**Class of 2024**  \n**Major**: Mechanical Engineering  \n**Minor**: Computer Science"
         icon: fas fa-graduation-cap
       - title: "Career"
-        desc: "I hope to pursue a career in machine learning with applications in cyber physical systems, robotics, or autonomous vehicles."
+        desc: "I hope to pursue a career in software for applications in cyber physical systems, robotics, or autonomous vehicles."
         icon: fas fa-robot
 
   experience:
@@ -58,6 +58,11 @@ en: &DEFAULT_EN
         desc: "**Institute for Software Integrated Systems**  \nNashville, TN"
         image: assets/img/experience/isis.jpg
         alt: image alt text
+      - title: "Engineering Intern"
+        year: "May 2023 - Aug 2023"
+        desc: "**DENSO**  \nMaryville, TN"
+        image: assets/img/experience/denso.jpg
+        alt: image alt texts
         # you can enforce the alignment
         align: #right or left
     end: "Stay <br> Tuned! <br> ..."
@@ -86,6 +91,9 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
+      - title: "Software"
+        url: https://www.python.org/
+        logo: assets/img/skills/python.png
       - title: "Software"
         url: https://cplusplus.com/
         logo: assets/img/skills/c++.png
