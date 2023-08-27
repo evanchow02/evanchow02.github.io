@@ -58,7 +58,7 @@ en: &DEFAULT_EN
         desc: "**Institute for Software Integrated Systems**  \nNashville, TN"
         image: assets/img/experience/isis.jpg
         alt: image alt text
-      - title: "Engineering Intern"
+      - title: "Robotics Intern"
         year: "May 2023 - Aug 2023"
         desc: "**DENSO**  \nMaryville, TN"
         image: assets/img/experience/denso.jpg
@@ -75,7 +75,7 @@ en: &DEFAULT_EN
 
   additional_interests:
     title: "Additional Interests"
-    text: "How I fill my free time!"
+    text: "Click icons for more!"
     subtext: 
     section: additional_interests
     # interests:
